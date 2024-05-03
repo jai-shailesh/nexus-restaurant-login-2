@@ -1,0 +1,149 @@
+.app {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+  height: 75vh;
+  border-radius: 25px;
+  padding: 5px 150px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(18.5px);
+  border-radius: 50px;
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+/* Rightt Side of The Login Page */
+
+.card {
+  width: 500px;
+  height: 375px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(18.5px);
+  border-radius: 50px;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  height: 100%;
+}
+
+/*Text*/
+.text-title {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/*Hover*/
+.card:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.button {
+  --primary-color: #ffffffcb;
+  --hover-color: #eceff294;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 50px;
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputs input {
+  width: 350px;
+  padding: 10px 3px;
+  border: none;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.329);
+}
+
+.inputs p {
+  font-size: 15px;
+}
+
+.inputs a {
+  text-decoration: none;
+}
+
+::placeholder {
+  padding: 15px;
+}
+
+/* Left Side Of The Login Page */
+
+.left h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.left p {
+  color: white;
+  width: 75%;
+}
+
+.left {
+  width: 50%;
+  padding: 100px 25px;
+}
+
+.input {
+  border: 2px solid transparent;
+  width: 15em;
+  height: 2em;
+  padding-left: 0.8em;
+  outline: none;
+  overflow: hidden;
+  background-color: #f3f3f3c2;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.input:hover,
+.input:focus {
+  border: 2px solid #4a9dec;
+  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+  background-color: rgba(255, 255, 255, 0.397);
+}
